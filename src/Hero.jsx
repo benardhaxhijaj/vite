@@ -1,7 +1,10 @@
 const Hero = () => {
   return (
     <div className="hero-images">
-      <img className="row-one" src="./src/assets/9.png" alt="Hero Image" />
+      <div className="row-zero">
+        <p></p>
+        <img className="row-one" src="./src/assets/9.png" alt="Hero Image" />
+      </div>
       <div className="row-two">
         <img src="./src/assets/8.png" alt="Hero Image" />
         <img src="./src/assets/7.png" alt="Hero Image" />
